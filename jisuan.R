@@ -9,7 +9,7 @@ travel <- read.csv(file = 'hunan.csv',na.strings = " ")
 str(travel)
 
 
-########num1#######
+########T index#######
 
 #######1.1#####
 travel_1 <-  travel[travel$year<=1988,]
@@ -55,7 +55,7 @@ x_4_t <- as.matrix(x_4_t)
 sqrt(sum(apply(x_4_t , 1 ,myfun)))/x_4_mean
 
 
-########num2#########
+########G index#########
 
 people <- read.csv(file = "people.csv")
 TOTAL <- people$total[1]
